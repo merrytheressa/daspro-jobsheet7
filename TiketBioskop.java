@@ -22,7 +22,6 @@ public class TiketBioskop{
             diskon = 0.10;
         }
         hargaSetelahDiskon = totalHarga - (totalHarga * diskon);
-
         System.out.println("Total harga: Rp " + hargaSetelahDiskon);
     }
 }
